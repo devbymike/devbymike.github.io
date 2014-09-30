@@ -1,4 +1,4 @@
-lauris.github.com
+devbymike.github.io
 =================
 
 My personal blog. Powered by Jekyll.
