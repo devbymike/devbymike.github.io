@@ -1,9 +1,14 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <title>Mike's Github Page</title>
-</head>
-<body>
-    <h1>This is my github page!</h1>
-</body>
-</html>
+---
+layout: default
+---
+
+<div>
+
+  	{% assign index = true %}
+
+    {% for post in site.posts %}
+		{% assign page = post %}
+		{% include post.html %}
+    {% endfor %}
+
+</div>
