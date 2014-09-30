@@ -365,3 +365,17 @@ button:hover, input[type=button]:hover, .button:hover {
 .highlight {
     margin: 10px 0;
 }
+
+/*Profile Photo Addition to About Page*/
+.profilePic {
+    display: block;
+    width: 200px;
+    float: left;
+}
+
+.profilePic img {
+    display: block;
+    height: 150px;
+    width: 150px;
+    border-radius: 150px;
+}
