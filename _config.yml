@@ -12,5 +12,5 @@ markdown: kramdown
 permalink: pretty
 excerpt_separator: "<!-- more -->"
 
-gems:
-  - jekyll-sitemap
+#gems:
+#  - jekyll-sitemap
