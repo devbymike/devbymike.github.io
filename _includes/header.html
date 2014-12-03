@@ -1,23 +1,19 @@
-<header id="main-header">
-  <div id="site-title">
-    <img src="/images/code.png" alt="Code">
+<header class="site-title">
     <a href="/">{{ site.title }}</a>
-  </div>
-  <div class="links">
-  {% assign current = page.title %}
-  <a href="/" class="page-link{% if current == null %} active{% endif %}">Writings</a>
-  {% for page in site.pages %}
-    {% if page.title and page.permalink != "/404.html" %}
-      <a class="page-link{% if current == page.title %} active{% endif %}"
-        href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
-    {% endif %}
-  {% endfor %}
-  <a href="http://www.linkedin.com/in/devbymike/" target="_blank" class="page-link">LinkedIn</a>
-  <a href="http://twitter.com/mike_key" target="_blank" class="page-link">Twitter</a>
-  <a href="https://github.com/devbymike/devbymike.github.io"
-    target="_blank"
-    class="page-link github-link">
-    <img src="/images/github-repo.png" alt="">
-    Source</a>
-  </div>
 </header>
+
+<nav class="links">
+    {% assign current = page.title %}
+    <a href="/" class="page-link{% if current == null %} active{% endif %}">Posts</a>
+    {% for page in site.pages %}
+        {% if page.title and page.permalink != "/404.html" %}
+            <a class="page-link{% if current == page.title %} active{% endif %}" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
+        {% endif %}
+    {% endfor %}
+    <a href="http://www.linkedin.com/in/devbymike/" target="_blank" class="page-link">LinkedIn</a>
+    <a href="http://twitter.com/mike_key" target="_blank" class="page-link">Twitter</a>
+    <a href="https://github.com/devbymike/devbymike.github.io" target="_blank" class="page-link github-link">
+        <img src="/images/github-repo.png" alt="">
+        Source
+    </a>
+</nav>

@@ -1,4 +1,25 @@
 ---
 layout: default
 ---
-{% include post.html %}
+
+<!-- Post Header -->
+<section class="entry">
+    
+    <header>
+        <p class="category">{% if page.category %}{{ page.category|capitalize }}{% endif %}</p>
+        <h1 class="title"><a href="{{ page.url }}">{{ page.title }}</a></h1>
+        <p class="meta">Posted on {{ page.date | date: "%b %-d, %Y" }} </p>
+    </header>
+
+    <article class="entry-body">
+        {% if content %}
+            {{ content }}
+        {% else %}
+            {{ page.excerpt }}
+            {% if page.content contains '<!-- more -->' %}
+            <p><a href="{{ page.url }}">Read more »</a></p>
+            {% endif %}
+        {% endif %}
+    </article>
+
+</section>
