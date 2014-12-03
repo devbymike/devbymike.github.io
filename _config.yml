@@ -1,37 +1,43 @@
-# Site settings
-title:                      "DevByMike"
-email:                      "mike@mk3y.com"
-description:                "experimental github blog"
 
-baseurl:                    ""
-url:                        "https://devymike.com"
-logourl:                    "/assets/img/bloglogo.jpg"      
-fa-logo:                    "fa-bookmark-o"
 
-paginate:                   5
+# Site Settings
+title: 						"DevByMike"
+email: 						"devbymike@mikekey.com"
+description: 				"Astro is a content focused responsive theme for the Jekyll blogging platform. Available for purchase at ThemeForest.net."
+baseurl: 					""
+url: 						"http://devbymike.com"
+logourl: 					"/assets/img/bloglogo.jpg"		
+fa-logo: 					"fa-bookmark-o"
+paginate: 					5
 
 
 # Author Settings
-author_name:                "Mike Key"
-author_url:                 "http://mikekey.com"
-author_bio:                 "To insert stuff here later"
-author_email:               "devbymike@mk3y.com"
-author_image:               "/assets/img/authorimage.jpg"
+author_name: 				"Mike Key"
+author_url: 				"http://mikekey.com"
+author_bio: 				"Harvey Specter has built a career and reputation by breaking the rules. Harvey's shoot-from-the-hip style has made him an effective lawyer and a slick character."
+author_email: 				"support@ecko.me"
+author_image: 				"/assets/img/authorimage.jpg"
 
 
 # Social Settings
-twitter_username:            "mike_key"
-github_username:             "devbymike"
+twitter_url: 				"http://twitter.com/mike_key"
+github_url:  				"http://github.com/devbymike"
+youtube_url:  				"http://youtube.com"
+dribbble_url:  				"http://dribbble.com"
+googleplus_url: 			"http://google.com/plus"
+instagram_url:  			"http://instagram.com"
+pinterest_url:  			"http://pinterest.com"
+linkedin_url:  				"http://linkedin.com"
 
 
 # Theme Settings
-theme_disqus_shortname:     ""
-theme_google_comments:      false
-theme_analytics_id:         ""
-theme_analytics_domain:     "devbymike.com"
-theme_reading_time:         true
-theme_autoload_comments:    false
-theme_always_show_nav:      false
+theme_disqus_shortname: 	"ecko"
+theme_google_comments: 		false
+theme_analytics_id: 		"UA-28282324-1"
+theme_analytics_domain: 	"ecko.me"
+theme_reading_time: 		true
+theme_autoload_comments: 	false
+theme_always_show_nav: 		false
 
 
 # SASS Settings
@@ -42,10 +48,6 @@ sass:
 
 
 # Build Settings
-markdown:                   kramdown
-permalink:                  pretty
+markdown: 					kramdown
+permalink: 					pretty
 
-excerpt_separator: "<!-- more -->"
-
-#gems:
-  - jekyll-sitemap
