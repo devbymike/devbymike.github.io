@@ -1,16 +1,51 @@
 # Site settings
-title: devbymike.github.io
-email: mike@mk3y.com
-description: "experimental github blog"
-baseurl: ""
-url: "https://devymike.github.io"
-twitter_username: mike_key
-github_username:  devbymike
+title:                      "DevByMike"
+email:                      "mike@mk3y.com"
+description:                "experimental github blog"
 
-# Build settings
-markdown: kramdown
-permalink: pretty
+baseurl:                    ""
+url:                        "https://devymike.com"
+logourl:                    "/assets/img/bloglogo.jpg"      
+fa-logo:                    "fa-bookmark-o"
+
+paginate:                   5
+
+
+# Author Settings
+author_name:                "Mike Key"
+author_url:                 "http://mikekey.com"
+author_bio:                 "To insert stuff here later"
+author_email:               "devbymike@mk3y.com"
+author_image:               "/assets/img/authorimage.jpg"
+
+
+# Social Settings
+twitter_username:            "mike_key"
+github_username:             "devbymike"
+
+
+# Theme Settings
+theme_disqus_shortname:     ""
+theme_google_comments:      false
+theme_analytics_id:         ""
+theme_analytics_domain:     "devbymike.com"
+theme_reading_time:         true
+theme_autoload_comments:    false
+theme_always_show_nav:      false
+
+
+# SASS Settings
+# DO NOT MODIFY
+sass:
+ sass_dir: "assets/css/"
+ style: :compressed
+
+
+# Build Settings
+markdown:                   kramdown
+permalink:                  pretty
+
 excerpt_separator: "<!-- more -->"
 
 #gems:
-#  - jekyll-sitemap
+  - jekyll-sitemap

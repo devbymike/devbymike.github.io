@@ -1,19 +1,12 @@
-<header class="site-title">
-    <a href="/">{{ site.title }}</a>
+<header class="title">
+    <a href="{{ site.url }}"><i class="fa {{ site.fa-logo }} fa-lg"></i><span>{{ site.title }}</span></a>
 </header>
 
-<nav class="links">
-    {% assign current = page.title %}
-    <a href="/" class="page-link{% if current == null %} active{% endif %}">Posts</a>
-    {% for page in site.pages %}
-        {% if page.title and page.permalink != "/404.html" %}
-            <a class="page-link{% if current == page.title %} active{% endif %}" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
-        {% endif %}
-    {% endfor %}
-    <a href="http://www.linkedin.com/in/devbymike/" target="_blank" class="page-link">LinkedIn</a>
-    <a href="http://twitter.com/mike_key" target="_blank" class="page-link">Twitter</a>
-    <a href="https://github.com/devbymike/devbymike.github.io" target="_blank" class="page-link github-link">
-        <img src="/images/github-repo.png" alt="">
-        Source
-    </a>
+<nav class="wrapper {% if page.featured == true %} featured {% endif %} {% if site.theme_always_show_nav == true %} alwaysshow {% endif %}">
+    <a href="#" onclick="return false;"><i class="fa fa-navicon fa-lg"></i></a>
+    <ul>
+        {% for page in site.pages %}
+            {% if page.title %}<li><a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a></li>{% endif %}
+        {% endfor %}
+    </ul>
 </nav>

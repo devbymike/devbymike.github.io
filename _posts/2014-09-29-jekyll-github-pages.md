@@ -1,13 +1,18 @@
 ---
 layout: post
 title: "Jekyll + Github Pages"
+date:   2014-09-24 04:07:49
 category: experiments
+banner_image: "/media/desert.jpg"
+comments: false
 permalink: /jekyll-github-pages
 ---
 
 Recently I decided to migrate this website from WordPress to Jekyll and host it with [Github pages](https://github.com/devbymike/devbymike.github.io). 
 
 The transition has been a smooth one with a small learning curve when compared to WordPress. And the speed of development is at least 5x as fast.
+
+<!--more-->
 
 Having used WordPress since 2007 I had grown to dislike how bloated it’s felt with each new feature release. Since v3.0 it seems like WordPress has just been gaining weight and bloat.
 
