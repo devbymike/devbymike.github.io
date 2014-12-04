@@ -7,7 +7,7 @@ description: 				""
 baseurl: 					""
 url: 						"http://devbymike.com"
 logourl: 					"/assets/img/bloglogo.jpg"		
-fa-logo: 					"fa-bookmark-o"
+fa-logo: 					"fa-code"
 paginate: 					5
 
 # Theme Settings
