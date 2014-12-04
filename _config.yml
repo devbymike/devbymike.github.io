@@ -6,7 +6,7 @@ email: 						"devbymike@mikekey.com"
 description: 				""
 baseurl: 					""
 url: 						"http://devbymike.com"
-logourl: 					"/assets/img/bloglogo.jpg"		
+logourl: 					""		
 fa-logo: 					"fa-code"
 paginate: 					5
 
