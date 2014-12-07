@@ -32,7 +32,7 @@ exclude:
 
 # Theme Settings
 theme_reading_time: true
-theme_always_show_nav: true
+theme_always_show_nav: false
 
 # Extra gems to have fancy things.
 gems:
