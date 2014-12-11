@@ -1,0 +1,14 @@
+url: http://devbymike.com
+title: DevByMike
+email: mike@mk3y.com
+description: > # "Front End Developer Traveling in an Airstream."
+markdown: kramdown
+permalink: pretty
+
+social:
+  - title: twitter
+    url: https://twitter.com/mike_key
+  - title: github
+    url: https://github.com/devbymike
+  - title: linkedin
+    url: https://www.linkedin.com/in/devbymike
