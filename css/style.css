@@ -10,7 +10,8 @@ h2,
 h3,
 h4,
 h5,
-h6 {
+h6,
+.byline {
     font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 700;
 }
@@ -34,8 +35,7 @@ body {
 
 .intro-message {
     position: relative;
-    padding-top: 20%;
-    padding-bottom: 20%;
+    padding-top: 15%;
 }
 
 .intro-message > h1 {
@@ -50,7 +50,14 @@ body {
     border-bottom: 1px solid rgba(0,0,0,0.2);
 }
 
-.intro-message > h3 {
+.byline {
+    max-width: 500px;
+    margin: 0 auto 35px auto;
+    line-height: 28px;
+}
+
+.intro-message > h3,
+.byline {
     text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
 }
 
